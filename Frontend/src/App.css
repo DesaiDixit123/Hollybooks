@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.registerAllInput {
+    @apply border-2 border-black w-[100%] mt-[10px] p-[5px] rounded-[10px] outline-none text-black
+}
+
+.section {
+    @apply flex justify-center p-[10px]
+}
+
+.scale1:active {
+    scale: .95;
+}
+
+.toastBody {
+    font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+    /* #10171D */
+    font-size: 1.2rem;
+}
+
+.contactUs {
+    @apply mt-[15px] mr-[15px] text-[20px]
+}
+
+
+/* Add this CSS to your styles.css or equivalent file */
+
+
+/* Define these styles in your CSS file or inline styles */
+
+.Modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: #333; */
+    /* border-radius: 10px; */
+    padding: 20px;
+}
+
+.Overlay {
+    /* background: rgba(0, 0, 0, 0.75); */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+.active {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table-width {
+    padding-left: 30px !important;
+    min-width: 500px !important;
+    text-align: justify !important;
+}
+
+.table_address {
+    min-width: 300px !important;
+}
